@@ -26,13 +26,13 @@ namespace ArraysAndLists
              */
             for (int i = 0; i < intArray.Length; i++)
             {
-                if (i % 2 == 0)
+                if (intArray[i] % 2 == 0)
                 {
-                    evens.Add(i);
+                   evens.Add(intArray[i]);
                 }
                 else
                 {
-                    odds.Add(i);
+                    odds.Add(intArray[i]);
                 }
             }
             /* Now using foreach or for loops,
